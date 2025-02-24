@@ -51,18 +51,42 @@ button {
   box-shadow: 0 16px 36px rgba(34, 72, 238, 0.22); /* Тень для кнопки */
   padding:  15px 25px; /* 15px — вертикальные отступы, 25px — горизонтальные */
 }
+.about__info {
+  max-width: 550px;
+}
 .about__image {
   width: 500px;
 }
  
 .about__sun-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .about {
-display: flex; /* Включаем Flexbox для выравнивания дочерних элементов */
-    justify-content: space-between; /* Распределяем пространство между логотипом и .header__controls */
-    align-items: center; /* Выравниваем элементы по вертикали по центру */
-    padding-top: 115px; /* Добавляем внутренние отступы для шапки */
-    padding-bottom: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background: url(../green-corp-landing/img/back.png) no-repeat; /* Путь к изображению */
+  background-position: center;
+  background-size: cover;
 }
+
+
+.about h1 {
+  font-size: 70px;
+  line-height: 76px;
+}
+.about p {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+.about button {
+  font-size: 18px;
+  border-radius: 20px;
+  padding:  20px 30px;
+  margin-top: 20px;
+}
+
